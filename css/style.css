@@ -1,1 +1,288 @@
-.work-title,header .name-style{font-family:glacial-indifference}.card,article{position:relative}.about-text,header .name-style{text-transform:uppercase;text-align:center}.btn-one a,.btn-three a,.btn-two a,.email-link,.name-style a,.social a,.social-icon{text-decoration:none}.about-text,.work-title,article p{text-align:center}@font-face{font-family:glacial-indifference;src:url(../fonts/GlacialIndifference-Regular.otf)}@font-face{font-family:glacial-indifference-italics;src:url(../fonts/GlacialIndifference-Italic.otf)}@font-face{font-family:glacial-indifference-bold;src:url(../fonts/GlacialIndifference-Bold.otf)}*{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:0 0}img{user-drag:none;user-select:none;-moz-user-select:none;-webkit-user-drag:none;-moz-user-drag:none;-webkit-user-select:none;-ms-user-select:none}body{width:94%;margin:auto}header .name-style{font-size:24px;font-weight:700;line-height:32px;margin-top:25px;letter-spacing:8px}.name-style a{color:#000}article{width:650px;font-family:glacial-indifference;margin-top:2%;margin-left:auto;margin-right:auto;max-width:750px;background-color:#FFF;padding-bottom:30px;border-radius:10px;border:1px solid #e9e9e9}article p{font-size:19px;margin:25px auto;line-height:35px}.about-text{font-family:glacial-indifference-bold;color:#654AFF;font-size:21px;letter-spacing:5px}.email-link{font-size:21px;color:#FF9D3A}.social{margin-top:20px}.social-icon{background:no-repeat #FFF;border:1px solid #CFCFCF;padding:0;border-radius:32px;color:#000;width:40px;height:40px;cursor:pointer;font-size:18px;font-weight:900;display:inline-block;vertical-align:middle;-webkit-transform:translateZ(0);transform:translateZ(0);-webkit-backface-visibility:hidden;background-size:50vw auto;margin:5px;backface-visibility:hidden;-moz-osx-font-smoothing:grayscale;-webkit-transition-duration:.2s;transition-duration:.2s;-webkit-transition-property:box-shadow,transform;-webkit-transition-property:box-shadow,-webkit-transform;transition-property:box-shadow,-webkit-transform;transition-property:box-shadow,transform;transition-property:box-shadow,transform,-webkit-transform}.social-icon:active,.social-icon:hover{-webkit-transform:scale(1.1);text-decoration:none;transform:scale(1.2);color:#777;outline:0}.work-title{font-size:24px;margin-top:3%}.card{width:650px;font-family:glacial-indifference;margin-top:3%;margin-left:auto;margin-right:auto;background-color:#FFF;padding-right:0;padding-left:0;border-radius:10px;border:1px solid #e9e9e9}.card p{font-size:18px;padding-left:30px;padding-right:30px;padding-top:30px}.btn-one,.btn-three,.btn-two{padding-left:30px;padding-top:15px;padding-bottom:25px}.card img{height:auto;width:100%;border-radius:10px 10px 0 0}.project-name{font-family:glacial-indifference-bold}.project-desc{margin-top:-15px}.btn-one a{color:#000}.btn-one a:hover{color:#6F53D2}.btn-two a{color:#000}.btn-two a:hover{color:#CB294D}.btn-three a{color:#000}.btn-three a:hover{color:#FEC591}.dribbble{margin-bottom:50px}@media only screen and (max-width:768px){.card,article{width:auto;margin-left:auto;margin-right:auto;background-color:#FFF}header .name-style{font-size:24px;line-height:30px;margin-top:30px}article{margin-top:6%;max-width:750px;padding-bottom:30px;border-radius:10px;border:1px solid #e9e9e9}.work-title{font-size:24px;margin-top:30px}.card{font-family:glacial-indifference;position:relative;margin-top:6%;padding-right:0;padding-left:0;border-radius:10px;border:1px solid #e9e9e9}.card img{max-width:100%;height:auto;border-radius:10px 10px 0 0}.btn-one,.btn-three,.btn-two,.card p{padding-left:20px}}
+.work-title,
+header .name-style {
+    font-family: glacial-indifference
+}
+
+.card,
+article {
+    position: relative
+}
+
+.about-text,
+header .name-style {
+    text-transform: uppercase;
+    text-align: center
+}
+
+.btn-zero a,
+.btn-one a,
+.btn-three a,
+.btn-two a,
+.email-link,
+.name-style a,
+.social a,
+.social-icon {
+    text-decoration: none
+}
+
+.about-text,
+.work-title,
+article p {
+    text-align: center
+}
+
+@font-face {
+    font-family: glacial-indifference;
+    src: url(../fonts/GlacialIndifference-Regular.otf)
+}
+
+@font-face {
+    font-family: glacial-indifference-italics;
+    src: url(../fonts/GlacialIndifference-Italic.otf)
+}
+
+@font-face {
+    font-family: glacial-indifference-bold;
+    src: url(../fonts/GlacialIndifference-Bold.otf)
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: 0 0
+}
+
+img {
+    user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -moz-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none
+}
+
+body {
+    width: 94%;
+    margin: auto
+}
+
+header .name-style {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    margin-top: 25px;
+    letter-spacing: 8px
+}
+
+.name-style a {
+    color: #000
+}
+
+article {
+    width: 650px;
+    font-family: glacial-indifference;
+    margin-top: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 750px;
+    background-color: #FFF;
+    padding-bottom: 30px;
+    border-radius: 10px;
+    border: 1px solid #e9e9e9
+}
+
+article p {
+    font-size: 19px;
+    margin: 25px auto;
+    line-height: 35px
+}
+
+.about-text {
+    font-family: glacial-indifference-bold;
+    color: #654AFF;
+    font-size: 21px;
+    letter-spacing: 5px
+}
+
+.email-link {
+    font-size: 21px;
+    color: #FF9D3A
+}
+
+.social {
+    margin-top: 20px
+}
+
+.social-icon {
+    background: no-repeat #FFF;
+    border: 1px solid #CFCFCF;
+    padding: 0;
+    border-radius: 32px;
+    color: #000;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 900;
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    -webkit-backface-visibility: hidden;
+    background-size: 50vw auto;
+    margin: 5px;
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-transition-duration: .2s;
+    transition-duration: .2s;
+    -webkit-transition-property: box-shadow, transform;
+    -webkit-transition-property: box-shadow, -webkit-transform;
+    transition-property: box-shadow, -webkit-transform;
+    transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform, -webkit-transform
+}
+
+.social-icon:active,
+.social-icon:hover {
+    -webkit-transform: scale(1.1);
+    text-decoration: none;
+    transform: scale(1.2);
+    color: #777;
+    outline: 0
+}
+
+.work-title {
+    font-size: 24px;
+    margin-top: 3%
+}
+
+.card {
+    width: 650px;
+    font-family: glacial-indifference;
+    margin-top: 3%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #FFF;
+    padding-right: 0;
+    padding-left: 0;
+    border-radius: 10px;
+    border: 1px solid #e9e9e9
+}
+
+.card p {
+    font-size: 18px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px
+}
+
+.btn-zero,
+.btn-one,
+.btn-three,
+.btn-two {
+    padding-left: 30px;
+    padding-top: 15px;
+    padding-bottom: 25px
+}
+
+.card img {
+    height: auto;
+    width: 100%;
+    border-radius: 10px 10px 0 0
+}
+
+.project-name {
+    font-family: glacial-indifference-bold
+}
+
+.project-desc {
+    margin-top: -15px
+}
+
+.btn-zero a {
+  color: #000
+  }
+    
+.btn-zero a:hover {
+    color: #332A5F
+}
+
+.btn-one a {
+    color: #000
+}
+
+.btn-one a:hover {
+    color: #6F53D2
+}
+
+.btn-two a {
+    color: #000
+}
+
+.btn-two a:hover {
+    color: #CB294D
+}
+
+.btn-three a {
+    color: #000
+}
+
+.btn-three a:hover {
+    color: #FEC591
+}
+
+.dribbble {
+    margin-bottom: 50px
+}
+
+@media only screen and (max-width:768px) {
+    .card,
+    article {
+        width: auto;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: #FFF
+    }
+    header .name-style {
+        font-size: 24px;
+        line-height: 30px;
+        margin-top: 30px
+    }
+    article {
+        margin-top: 6%;
+        max-width: 750px;
+        padding-bottom: 30px;
+        border-radius: 10px;
+        border: 1px solid #e9e9e9
+    }
+    .work-title {
+        font-size: 24px;
+        margin-top: 30px
+    }
+    .card {
+        font-family: glacial-indifference;
+        position: relative;
+        margin-top: 6%;
+        padding-right: 0;
+        padding-left: 0;
+        border-radius: 10px;
+        border: 1px solid #e9e9e9
+    }
+    .card img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 10px 10px 0 0
+    }
+    .btn-zero
+    .btn-one,
+    .btn-three,
+    .btn-two,
+    .card p {
+        padding-left: 20px
+    }
+}
