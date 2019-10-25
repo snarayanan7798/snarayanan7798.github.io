@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans:300,400,500&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600&display=swap');
+@font-face {
+    font-family: 'CamptonLight';
+    src: url(fonts/Campton-Light.otf);
+}
+
+@font-face {
+    font-family: 'CamptonBold';
+    src: url(fonts/Campton-Bold.otf);
+}
+
+@font-face {
+    font-family: 'CamptonBook';
+    src: url(fonts/Campton-Book.otf);
+}
+
+@font-face {
+    font-family: 'CamptonMedium';
+    src: url(fonts/Campton-Medium.otf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: 0 0;
+}
+
+body,
+html {
+    font-family: 'IBM Plex Sans, sans-serif;
+ text-rendering: optimizeLegibility!important;
+    -webkit-font-smoothing: antialiased!important;
+    -moz-osx-font-smoothing: grayscale overflow-x: -moz-hidden-unscrollable
+}
+
+a {
+    text-decoration: none;
+    color: #464646;
+}
+
+img {
+    user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -moz-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+.index-main {
+    height: 100%;
+}
+
+body {
+    width: 50%;
+    margin: auto;
+}
+
+header {
+    position: relative;
+    z-index: 10;
+    width: 80%;
+    margin: 30px auto 0;
+    max-width: 400px
+}
+
+header .name-style {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 28px;
+    line-height: 36px;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 4px;
+    position: relative;
+}
+
+header .name-style a {
+    color: rgba(0, 0, 0, 1);
+}
+
+header ul.links {
+    margin: 25px auto 0;
+    text-align: center;
+}
+
+header ul.links li {
+    display: inline-block;
+    list-style: none;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 14px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 400;
+    margin-left: 25px;
+    margin-right: 25px;
+    position: relative;
+    color: rgba(0, 0, 0, 1)
+}
+
+header ul.links li.active a {
+    color: rgba(0, 0, 0, 1);
+}
+
+header ul.links li.active a::before {
+    transition: 300ms;
+    height: 2px;
+    content: "";
+    position: absolute;
+    background-color: #575757;
+}
+
+header ul.links li.active a::before {
+    width: 0%;
+    bottom: -6px;
+}
+
+header ul.links li.active a::before {
+    width: 93%;
+}
+
+header ul.links li.not-active a::before {
+    transition: 300ms;
+    height: 2px;
+    content: "";
+    position: absolute;
+    background-color: #575757;
+}
+
+header ul.links li.not-active a::before {
+    width: 0%;
+    bottom: -6px;
+}
+
+header ul.links li.not-active a:hover::before {
+    width: 94%;
+}
+
+header ul.links li.not-active a {
+    color: rgba(0, 0, 0, .5);
+}
+
+header ul.links li.not-active a:hover {
+    color: rgba(0, 0, 0, 1);
+}
+
+.title-role {}
+
+.work .title-role {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 400;
+    margin-top: 60px;
+    font-size: 32px;
+    color: #1C1C1C;
+    margin-top: 80px;
+}
+
+.work .role-desc {
+    font-family: 'CamptonLight';
+    font-weight: 400;
+    font-size: 19px;
+    color: #333333;
+    margin-top: 30px;
+    line-height: 40px;
+}
+
+.text-dark {
+    color: #1C1C1C;
+    font-weight: 500;
+    font-family: 'CamptonBook';
+}
+
+a.email-link {
+    font-family: 'Montserrat', sans-serif;
+    color: #1C1C1C;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-top: 20px;
+    margin-bottom: 150px;
+    border: 1.5px solid #676767;
+    padding: 10px 30px 10px 30px;
+    display: inline-block;
+    position: relative;
+    top: 20px;
+    border-radius: 40px;
+    -webkit-transition: all .2s cubic-bezier(.005, .735, .63, .995);
+    -o-transition: all .2s cubic-bezier(.005, .735, .63, .995);
+    transition: all .2s cubic-bezier(.005, .735, .63, .995)
+}
+
+a.email-link:hover {
+    transform: scale(.95);
+}
+
+.social-text {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #676767;
+    margin-top: 0px;
+}
+
+.color--dark {
+    color: #000000;
+    font-weight: 400;
+}
+
+ul.social-links li {
+    display: inline-block;
+    list-style: none;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    margin-top: 20px;
+    margin-right: 10px;
+    position: relative;
+    color: #1C1C1C;
+}
+
+@media only screen and (max-width:768px) {
+    body {
+        width: 88%;
+        margin: auto;
+    }
+    .work .title-role {
+        margin-top: 40px;
+        font-size: 28px;
+        text-align: left;
+        line-height: 45px;
+    }
+    .work .role-desc {
+        font-weight: 400;
+        font-size: 17px;
+        margin-top: 15px;
+        line-height: 40px;
+    }
+}
